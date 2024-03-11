@@ -1,38 +1,170 @@
-.App {
-  text-align: center;
+.main input {
+  color: rgb(30, 27, 27);
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  border-radius: 15px;
+  height: 35px;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav {
+display: flex;
+justify-content: space-evenly;
+text-align: center;
+font-size: 30px;
+height: 10vh;
+position: sticky;
+padding-top: 20px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.home {
+color: white;
+  width: 50%;
+   height: 40px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 15px;
+    background-color: lightgreen;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    text-align: center;
+    justify-content: center;
+    border-color: green;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 70%;
+    border-color: green;
+}
+
+.main h1{
+  color: white;
+  width: 60%;
+   height: 50px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 15px;
+    background-color: lightgreen;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    text-align: center;
+    justify-content: center;
+    border-color: green;
+}
+
+form button {
+  width: 30%;
+    height: 40px;
+    background: aliceblue;
+    border-radius: 20px;
+}
+
+.nav_home {
+width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 15px;
+    background-color: lightgreen;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-color: green;
+}
+.nav-countries {
+  width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 15px;
+    background-color: lightgreen;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-color: green;
+}
+
+.nav-add-countries {
+width: 270px;
+    height: 50px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 15px;
+    background-color: lightgreen;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-color: green;
+}
+
+body {
+  background-image: url('https://media.istockphoto.com/id/514633165/photo/globes-of-glass.jpg?s=612x612&w=0&k=20&c=9xRXWulZHrCoeXEWscMw2kzDMQ3xuTleYbN9yjQQGhY=');
+width: 100%;
+  background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+}
+
+.countries-header {
+  color: white;
+  width: 60%;
+   height: 50px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 15px;
+    background-color: lightgreen;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    text-align: center;
+    justify-content: center;
+}
+
+div.App div{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.countries-container {
+  
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .search {
+
+color: white;
+font-weight: bold;
+font-size: medium;
   }
-  to {
-    transform: rotate(360deg);
+
+  .search-input {
+
+    height: 25px;
+    width: 160px;
+    border-radius: 15px;
   }
-}
+
+  .search-button {
+margin-top: 10px;
+    height: 35px;
+    width: 130px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 20px
+
+  }
